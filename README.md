@@ -4,7 +4,7 @@ Model converted to Pytorch from the TensorFlow implementation at https://github.
 
 ### Data loading 
 ```
-python create_csv_file.py
+python create_csv_files.py
 ```
 
 ### Model training
