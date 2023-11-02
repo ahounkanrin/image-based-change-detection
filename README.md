@@ -1,17 +1,23 @@
 # Change detection from satellite images
 PyTorch implementation of "End-to-End Change Detection for High-Resolution Satellite Images Using Improved UNet++" (Peng et al., 2019).
 
-## Data loading 
+1. Data loading 
 ```
 python create_csv_file.py
 ```
 
-## Model training
+2. Model training
+```
 python train.py
+```
 
-## Model evaluation
+3. Model evaluation
+```
 python evaluate.py
+```
 
-## Prediction visualization
+4. Prediction visualization
+```
 python visualize_predictions.py
+```
 
