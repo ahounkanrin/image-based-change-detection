@@ -1,22 +1,23 @@
 # Change detection from satellite images
-PyTorch implementation of "End-to-End Change Detection for High-Resolution Satellite Images Using Improved UNet++" (Peng et al., 2019).
+Implementation of "End-to-End Change Detection for High-Resolution Satellite Images Using Improved UNet++" (Peng et al., 2019).
+Model converted to Pytorch from the TensorFlow implementation at https://github.com/daifeng2016/End-to-end-CD-for-VHR-satellite-image
 
-1. Data loading 
+### Data loading 
 ```
 python create_csv_file.py
 ```
 
-2. Model training
+### Model training
 ```
 python train.py
 ```
 
-3. Model evaluation
+### Model evaluation
 ```
 python evaluate.py
 ```
 
-4. Prediction visualization
+### Prediction visualization
 ```
 python visualize_predictions.py
 ```
